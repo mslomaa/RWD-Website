@@ -1,0 +1,41 @@
+.nav-mobile {
+    display: none;
+}
+.nav-desktop {
+    display: block;
+}
+
+.nav-desktop li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.nav-desktop li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+    padding: 30px;
+    transition: color .5s;
+
+}
+
+.nav-desktop li a:hover {
+    color: royalblue;
+}
+
+/* HEADER */
+
+.header-text h1 {
+    font-size: 45px;
+}
+
+.header-text p {
+    font-size: 24px;
+}
+
+/* main */
+.main-product {
+    width: 45%;
+}
